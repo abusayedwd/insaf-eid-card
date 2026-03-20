@@ -447,23 +447,7 @@ export default function EidCard() {
             background:"linear-gradient(90deg,transparent,rgba(255,215,0,0.18) 30%,rgba(255,215,0,0.18) 70%,transparent)",
           }} />
 
-          {/* bottom Arabic blessing */}
-          <div style={{
-            padding:"10px 16px",borderRadius:"12px",textAlign:"center",
-            background:"rgba(0,0,0,0.22)",
-            border:"1px solid rgba(255,215,0,0.1)",
-            marginBottom:"14px",
-          }}>
-            <p style={{
-              fontFamily:"'Amiri',serif",
-              fontSize:"clamp(12px,3vw,15px)",
-              color:"rgba(255,215,0,0.6)",margin:"0 0 3px",letterSpacing:"1px",
-            }}>كُلُّ عَامٍ وَأَنْتُمْ بِخَيْرٍ</p>
-            <p style={{
-              color:"#5a4020",fontFamily:"'Noto Serif Bengali',serif",
-              fontSize:"clamp(10px,2.4vw,11px)",margin:0,
-            }}>প্রতিটি বছর আপনি ভালো থাকুন</p>
-          </div>
+      
 
           {/* ── FOOTER: foundation + slogan ── */}
           <div style={{
